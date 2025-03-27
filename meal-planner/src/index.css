@@ -1,0 +1,13 @@
+body {
+  margin: 70px 60px;
+  background-image: linear-gradient(
+      rgb(215, 202, 172, 0.4),
+      rgba(215, 202, 172, 0.3)
+    ),
+    url("./assets/meal-planner-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  line-height: 1.6;
+}

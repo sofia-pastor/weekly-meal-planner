@@ -1,0 +1,40 @@
+:root {
+  --primary-color: rgb(5, 87, 54);
+  --secondary-color: rgb(215, 202, 172);
+}
+
+h1 {
+  color: var(--primary-color);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
+  font-size: 56px;
+  text-align: center;
+  margin: 20px 0 50px;
+}
+.row {
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+}
+
+.day {
+  border-left: 1px solid var(--primary-color);
+}
+
+h2 {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.4);
+  font-size: 36px;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 5px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0 20px;
+}
